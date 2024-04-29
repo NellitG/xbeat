@@ -15,7 +15,7 @@ const Header = () => {
     const [isSticky, setIsSticky] = useState(false);
 
 
-    // handle the sticky-header
+  
     useEffect(() => {
         const handleIsSticky = () => window.scrollY >= 50 ? setIsSticky(true) : setIsSticky(false);
 

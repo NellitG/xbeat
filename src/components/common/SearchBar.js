@@ -13,7 +13,7 @@ const SearchBar = () => {
 
     const searchRef = useRef();
 
-    // closing the SearchBar
+   
     const closeSearch = () => {
         toggleSearch(false);
         setSearchResults([]);
@@ -24,7 +24,7 @@ const SearchBar = () => {
     useScrollDisable(isSearchOpen);
 
 
-    // handling Search
+ 
     const handleSearching = (e) => {
         const searchedTerm = e.target.value.toLowerCase().trim();
 
